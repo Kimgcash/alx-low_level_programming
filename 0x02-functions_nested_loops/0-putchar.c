@@ -1,20 +1,17 @@
 #include "main.h"
 
 /**
- * main - check Description
- *
- * Description: write a program that prints putchar
- *
- * Return: Always 0 (Success)
- */
+* main -print putchar
+* Return: always 0
+*/
+
 int main(void)
 {
-	char *sh = "kimgcash";
+	char nm = "kimgcash";
 
-
-	while (*sh)
+	while (*nm)
 	{
-		_putchar(*sh);
+		_putchar(*nm);
 		sh++;
 	}
 	_putchar('\n');
