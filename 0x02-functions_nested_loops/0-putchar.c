@@ -9,13 +9,15 @@
  */
 int main(void)
 {
-	char nm = "kimgcash";
+	char *sh = "kimgcash";
 
-	while (*nm)
+
+	while (*sh)
 	{
-		_putchar(*nm);
-		nm++;
-		_putchar('\n');
-
-		return (0);
+		_putchar(*sh);
+		sh++;
 	}
+	_putchar('\n');
+
+	return (0);
+}
