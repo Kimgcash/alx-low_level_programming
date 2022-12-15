@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle
- * @size: size of triangle 
+ * print_triangle - prints a triangle .
+ * @size: size of triangle .
  *
  * Return: void
  */
@@ -18,10 +18,10 @@ void print_triangle(int size)
 	{
 		for (j = 1; j <= size; j++)
 		{
-		if (j <= (size - i))
-			_putchar(' ');
-		else
-			_putchar('#');
+			if (j <= (size - i))
+				_putchar(' ');
+			else
+				_putchar('#');
 		}
 		_putchar('\n');
 	}
