@@ -1,21 +1,20 @@
 #include "main.h"
 /**
- * main - main function .
- * is written by Kimgcash
+ * main - main function
+ *
  * Return: 0
  */
-
 int main(void)
 {
-	_putchar('-');
-	_putchar('p');  
-	_putchar('u');  
-	_putchar('t');  
-	_putchar('c');  
-	_putchar('h');  
-	_putchar('a');  
-	_putchar('r');
-_putchar('\n');
-return (0);
-}
+	char m[] = "main.h";
+	int s = sizeof(m);
+	int i;
 
+	for (i = 0; i < s; i++)
+	{
+		_putchar(m[i]);
+	}
+
+	_putchar('\n');
+	return (0);
+}
